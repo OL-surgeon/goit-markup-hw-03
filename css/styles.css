@@ -39,6 +39,9 @@ a:focus {
   text-decoration: underline;
   color: #404bbf;
 }
+img {
+  display: block;
+}
 .container {
   width: 100%;
   max-width: 1440px;
@@ -49,11 +52,17 @@ a:focus {
   width: 100%;
   text-align: center;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
-
+.header .container {
+  display: flex;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  align-items: center;
 }
 .header-navig {
   display: flex;
@@ -92,6 +101,7 @@ a:focus {
   color: #4d5ae5;
   align-items: center;
   display: flex;
+  margin-right: 76px;
 }
 .logo-span {
   color: #2e2f42;
@@ -103,6 +113,7 @@ a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-nav:focus {
   color: #404bbf;
@@ -116,7 +127,6 @@ a:focus {
 .address-list {
   display: flex;
   gap: 40px;
-  padding-left: 141px;
 }
 .first-section {
   background-color: #2e2f42;
@@ -145,9 +155,10 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 496px;
 }
 .button {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   border: none;
@@ -161,7 +172,7 @@ a:focus {
   line-height: 1.5;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 172px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-left: auto;
@@ -173,9 +184,11 @@ a:focus {
 .button:focus {
   background-color: #404bbf;
 }
+.second-section {
+  padding: 120px 0;
+}
 .second-section-list {
   display: flex;
-  padding: 120px 156px;
   gap: 24px;
   width: calc((100% - 72px) / 4);
 }
@@ -194,6 +207,7 @@ a:focus {
 }
 .third-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .third-section .container {
   padding: 120px 156px;
