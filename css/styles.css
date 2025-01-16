@@ -206,7 +206,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.second-section-list-element {
+.second-section-list li {
   width: calc((100% - 72px) / 4);
 }
 .third-title {
@@ -234,7 +234,9 @@ img {
   display: flex;
   gap: 24px;
 }
-
+.third-section-list li {
+  width: calc((100% - 72px) / 4);
+}
 .photos {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -313,7 +315,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   align-items: center;
-  display: flex;
   margin-bottom: 16px;
 }
 
