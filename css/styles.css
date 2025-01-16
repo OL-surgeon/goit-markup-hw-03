@@ -73,13 +73,10 @@ img {
   display: flex;
   gap: 40px;
 }
-.address-container {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
+
 .address-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .mail {
@@ -209,6 +206,9 @@ img {
 .second-section-list li {
   width: calc((100% - 72px) / 4);
 }
+.second-section-info {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 .third-title {
   font-weight: 500;
   font-size: 20px;
@@ -239,7 +239,7 @@ img {
 }
 .photos {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .photos-info {
