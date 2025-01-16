@@ -59,12 +59,13 @@ img {
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
   width: 1158px;
+  justify-content: space-between;
   margin: 0 auto;
   align-items: center;
 }
 .header-navig {
+  align-items: center;
   display: flex;
   margin-left: 154px;
 }
@@ -76,6 +77,10 @@ img {
   display: flex;
   align-items: center;
   flex-direction: row;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 .mail {
   color: #434455;
@@ -124,10 +129,7 @@ img {
   font-style: normal;
   flex-direction: row;
 }
-.address-list {
-  display: flex;
-  gap: 40px;
-}
+
 .first-section {
   background-color: #2e2f42;
   min-height: 600px;
