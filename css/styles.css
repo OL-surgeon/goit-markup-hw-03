@@ -50,12 +50,13 @@ img {
 
 .header-container {
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
 }
 .header-navig {
   align-items: center;
   display: flex;
+  gap: 76px;
 }
 .header-list {
   display: flex;
@@ -226,13 +227,12 @@ img {
 .third-section-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
-.third-section-list li {
-  width: calc((100% - 72px) / 4);
-}
+
 .photos {
-  background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 .photos-info {
