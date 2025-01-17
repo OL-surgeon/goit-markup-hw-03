@@ -219,7 +219,9 @@ img {
 .third-section {
   background-color: #f4f4fd;
 }
-
+.third-section .container {
+  padding: 120px 0;
+}
 .third-section-list {
   display: flex;
   gap: 24px;
